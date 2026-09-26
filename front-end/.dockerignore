@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.gitignore
+*.zip
+__MACOSX
+.env
+.env.*
+!.env.example
+README.md
+*.log
