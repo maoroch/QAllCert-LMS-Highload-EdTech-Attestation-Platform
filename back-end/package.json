@@ -1,0 +1,44 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:load": "node scripts/load-tests/1-load-test.js",
+    "test:spike": "node scripts/load-tests/2-spike-test.js",
+    "test:stress": "node scripts/load-tests/3-stress-test.js",
+    "test:perf": "node scripts/load-tests/run-all.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.76.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^6.11.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "minio": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.14",
+    "pdfkit": "^0.18.0",
+    "pg": "^8.20.0",
+    "prettier": "^3.8.3",
+    "redis": "^5.12.1",
+    "stripe": "^22.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0"
+  }
+}
