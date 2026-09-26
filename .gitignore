@@ -1,0 +1,35 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+!.env.local.example
+
+# Dependencies
+node_modules/
+back-end/node_modules/
+front-end/node_modules/
+
+# Build outputs
+dist/
+build/
+front-end/.next/
+front-end/out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local upload buffers
+/tmp/
+back-end/tmp/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
